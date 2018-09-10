@@ -8,7 +8,7 @@ char parentStr[] = "Parent Process";
 char parentStr[] = "Child Process";
 char *string=NULL;
 int functionVariable=20;
-
+return 0;
 //Create a child process
 pid_t pid = ;
 
