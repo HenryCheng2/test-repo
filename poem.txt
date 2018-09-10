@@ -1,0 +1,20 @@
+#include <sys/typees.h>
+#include <stdio.h>
+#include <unistd.h>
+
+int globalVariable = 2 ;
+int main(){
+char parentStr[] = "Parent Process";
+char parentStr[] = "Child Process";
+char *string=NULL;
+int functionVariable=20;
+
+//Create a child process
+pid_t pid = ;
+
+if()//Failed to fork{
+perror("Unable to create child process");
+	return 1;
+
+	}
+}
